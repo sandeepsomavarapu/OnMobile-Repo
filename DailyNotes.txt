@@ -216,7 +216,127 @@ super  used for represting parent class properties
 public :anywhere (inside or outside package irrespective of parent child relations)
 private :only inside the class
 default :only inside the package 
-protected isnide package anywhere outside the package only when ever it is child
+protected inside package anywhere outside the package only when ever it is child
+
+
+by default package for every java file java.lang
+by default parent for every java class java.lang.Object
+
+
+
+Exception handling:
+==================
+
+
+
+java.lang.invalidcredentials in demo.java system defined error messages 
+
+
+
+File IO stream:
+========= throws  IOException
+
+	java.io
+	
+		java   --->create,write,read,delete
+
+
+		File  java.io
+		
+		FileWriter  	write
+		BufferedWriter	write  newLine()
+		PrintWriter		print
+		
+		
+		FileReader
+		BufferedReader
+		
+		serialization & de-serialization
+		
+	String,		StringBuffer,StringBuilder	 java.lang
+	immutable			muttable
+	
+			"sandeep"
+	
+	
+	String name="onmobile";
+	String name1=new String("onmobile");
+	
+	t1,t2,t3,t4
+	
+	public void m1()
+	{
+	
+	
+	
+	}
+	
+	public synchronized void m1()
+	{
+	
+	
+	
+	}
+	
+	
+	
+	Collections:
+	=============	
+	int array[]=new int[5];AIOE
+				int marks=20;
+				
+				int marks[]={...................}	
+
+
+		1)fixed in size
+		2)only homogeneous data allowed
+		3)no utility methods
+
+	Collections
+
+		1)not fixed in size growable in nature
+		2)both homogeneous & Haterogeneous  data allowed
+		3)lots of utility methods
+
+
+List :
+
+		duplicates are allowed
+		insertion order is preserved 
+		
+		
+Set	:
+		duplicates are not allowed 
+		insertion order is not followed 
+		
+		
+Comparable and Comparator
+
+
+		TreeSet,TreeMap
+add
+	alphabatical order 
+	ascending order 
+	
+java.lang 
+Comparable-->compareTo()-->NSO
+java.util
+Comparator-->compare()-->CSO
+
+
+
+
+
+
+***************Product Management Application*******
+1.Add Product 
+2.Update Product 
+3.Delete Product 
+4.Get Product 
+5.GetAll Product                 
+6.GetAllProducts InBetween prices
+7.Exit
+
 
 
 
