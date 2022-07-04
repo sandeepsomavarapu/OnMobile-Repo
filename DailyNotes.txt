@@ -449,5 +449,90 @@ deptno   dname    dloc
 			   
 			   //close the connection
 		
+Servlets:		Django,flask
+========JSP
+	technology -->web applications  -->java
+
+
+
+		URL-->www.gmail.com
+
+		
+ web application --->server
+
+
+		.java
+		interfaces,classes,method,constructor,objects,variables....
+
+		
+		web.xml
+		
+		
+		server
+								tomcat 
+			application server
+				tomcat ,ftp,smtp         servlet container 
+			web servers 
+				Jboss,glasfish,putty,websphere,weblogic.... servlet,ejb container 
+			
+		3 ways
+		
+	1.implements Servlet (I)
+	2.extends GenericServlet(AC)
+	3.extends HttpServlet(AC)
+	
+	
+	
+		class LoginController implements Servlet (5)
+		{
+		
+		//5 methods init(),destroy(),service(),getServletInfo(),getServletConfig()
+		
+		
+		
+		}
+	
+			web.xml
+			<web-app>
+			<servlet>
+				<servlet-name>
+				<servlet-class>
+				
+			</servlet>
+			<servlet-mapping>
+			<servlet-name>
+			<url-pattern>
+			</web-app>
+					
+	
+			
+			tomcat server -->servlet-api.jar
+
+
+Login and registration servlet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
