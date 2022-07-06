@@ -475,11 +475,11 @@ Servlets:		Django,flask
 			web servers 
 				Jboss,glasfish,putty,websphere,weblogic.... servlet,ejb container 
 			
-		3 ways
+		3 ways		javax.servlet.*
 		
 	1.implements Servlet (I)
 	2.extends GenericServlet(AC)
-	3.extends HttpServlet(AC)
+	3.extends HttpServlet(AC) 5methods +doGet,doPost,DoDelete,......
 	
 	
 	
@@ -512,27 +512,70 @@ Servlets:		Django,flask
 Login and registration servlet
 
 
+JAVA8 
 
 
 
 
 
 
+						Collection 30+1
+						
+				list        set       queue
+			AL	LL V S	 HS LHS TS
 
 
 
 
 
+JDBC API
+=====
+	database dependent query's
+	exception handling
+	create tables 
+	boiler plate code 
+
+JPA HIbernate :framework   JDBC
+==================
+	java persistence api --specification
+	
+	HIBERNATE,eclipse link,top link,ibatis......ORM tools
 
 
+	no query's
+	no table creation
+	no exception handling
+	no boiler plate code 
+	Cache 
+	
+	ORM -->
+	
+class	Employee     ORM			 table
+		empid 						row
+		empName						columns
+		empSal
+		empAdd
+	
+	
+	
+	Entity
+	Product				Client             persistence.xml
+											<persistence>
 
+											<persistence-unit>
+											username
+											password
+											url
+											driver class
 
-
-
-
-
-
-
+												
+											hibernate
+											3
+	
+	
+	
+	
+	
 
 
 
